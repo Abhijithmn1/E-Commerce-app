@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+{% block metadescription %}
+        We have a verity of fashion collections..
+{% endblock %}
+{% block title %}
+Search
+{% endblock %}
+{% block content %}
+<div>
+  <p class="text-center my_search_text">
+    You have searched for:<b>"{{query}}"</b>
+  </p>
+</div>
+<div class="container">
+    <div class="row mx_auto">
+            {% for product in products %}
+            <div class="my_bottom_margin col-9 col-sm-12 col-md-4 col-lg-4"><br>
+                <div class="card">
+                    <div class="card text-center" style="min-width: 18rem;">
+                        <a href="{{product.get_url}}"><img class="card-img-top " src="{{product.image.url}}" height="250" width="300" alt="{{product.name}}"></a>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <p class="text-title">{{product.name}}</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="text-title">{{product.price}} $</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% empty %}
+        <div class="row mx_auto">
+            <p class="text-center my_search_text">0 result find</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

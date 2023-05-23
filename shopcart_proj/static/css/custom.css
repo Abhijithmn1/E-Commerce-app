@@ -1,0 +1,157 @@
+.body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/***NavBaar***/
+.dropdown-menu{
+    background-color: #f1f1f1;
+}
+.nav-item{
+        letter-spacing:.2em;
+        font-size:16px;
+        text-transform:uppercase;
+}
+
+.dropdown-item{
+        letter-spacing:.2em;
+        font-size:14px;
+        text-transform:uppercase;
+        color: #909090;
+}
+
+/***Footer***/
+.my_footer{
+    background-color:#d7d5d5;
+    height:35px;
+
+}
+.my_footer p {
+    padding-top:15px;
+    font-size:14px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+/***CATEGORY PAGE***/
+.my_row_class{
+    padding-top:15px;
+}
+.my_row_class.mx_auto{
+    color:#000;
+    font-size:12px;
+}
+.my_image{
+    width:100%;
+    height:auto;
+}
+.my_image_padding{
+    padding:60px;
+}
+.my_title{
+    font-size:20px;
+    font-weight:200;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+}
+.my_bottom_margin{
+    margin-bottom:10px;
+}
+
+.card-info p{
+    text-transform:uppercase;
+    font-size: 15px;
+    text-shadow: rgba(0, 0, 0, 0.42);
+
+}
+
+
+/***Product Page***/
+.my-prod{
+    padding-top:15px;
+    padding-bottom:20px;
+}
+.my-prod.mx_auto{
+    color:#000;
+    font-size:12px;
+    text-decoration:none;
+}
+.prod-title{
+    padding-top:15px;
+    padding-bottom:20px;
+    font-size:36px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    font-weight:400;
+}
+.prod-text{
+    padding-right:20px;
+    font-size:20px;
+    font-weight:400;
+}
+.my_titlle{
+    font-size:14px;
+    font-weight:50;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+}
+.prod_side{
+    text-align: left;
+}
+.my_search_text{
+    padding-top:20px;
+}
+
+/*** CART ***/
+.my_table{
+min-width :1000px;
+font-size :13px;
+}
+
+
+.Cart-Items{
+ margin: auto;
+ width: 90%;
+ height: 30%;
+ display: flex;
+ justify-content: space-between;
+ align-items: left;
+}
+
+}
+.about{
+ height: 100%;
+}
+.title{
+ padding-top: 10px;
+ padding-left: 55px;
+ line-height: 20px;
+ font-size: 20px;
+ font-family: ‘Open Sans’;
+ font-weight: 500;
+ color: #202020;
+  align-items: left;
+}
+.bttn{
+padding-left: 60px;
+}
+.bttn_2{
+padding-left: 110px;
+}
+.amount{
+padding-top: 160px;
+}
+.subtitle{
+ line-height: 15px;
+ padding-top: 10px;
+ font-size: 12px;
+ font-family: ‘Open Sans’;
+ color: #909090;
+  align-items: left;
+}
+
+.counter{
+ width: 15%;
+ display: flex;
+ justify-content: space-between;
+ align-items: right;
+}
